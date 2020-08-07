@@ -1,0 +1,74 @@
+body {
+  background: #fff;
+  position: relative;
+}
+
+.container{
+  width: 100%;
+  max-width:960px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  @include display-less(phablet) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @include display-less(smart) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.profile-container {
+  width: 100%;
+  max-width:640px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.profile-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.profile-col{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.show {
+  display: block
+}
+
+.hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, button, textarea {
+  outline: none;
+}
